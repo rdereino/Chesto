@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: gray;
+  background-color: #f0f0f0;
+}
+.navbar a {
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.list-items {
+  display: flex;
+}
+
+.list-items a {
+  color: black;
+}
+.list-items a:hover {
+  background-color: black;
+  color: white;
+}
+.brand {
+  background: black;
+  color: white;
+}

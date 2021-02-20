@@ -1,0 +1,52 @@
+#presentacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(237, 240, 244);
+  height: 60vh;
+  padding: 10px 15px;
+  min-inline-size: 16px;
+}
+#presentacion div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 50%;
+  margin: 0 15px;
+}
+#presentacion div h1 {
+  text-align: left;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.sign-in-button {
+  margin: 10px;
+  font-size: 20px;
+  display: inline-block;
+  border: black 2px solid;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+  background: black;
+  font-weight: bolder;
+}
+.sign-in-button:hover {
+  color: black;
+  background: rgb(237, 240, 244);
+}
+.section-brand {
+  color: black;
+  font-weight: bolder;
+  font-size: 34px;
+  text-align: center;
+  margin: 25px 0;
+}
+.section-definition {
+  text-align: center;
+  max-width: 50%;
+margin: 0 auto;
+}
